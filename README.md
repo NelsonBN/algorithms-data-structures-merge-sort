@@ -12,8 +12,8 @@
 
 
 ## Demos:
-- [Arrays](./src/arrays.py)
-- [Linked Lists](./src/linked_lists.py)
+- [For Arrays](./src/arrays.py)
+- [For Linked Lists](./src/linked_lists.py)
 
 
 ## Demonstration
