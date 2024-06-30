@@ -20,6 +20,7 @@
 
 ## Demonstration
 - [Algorithm Visualizer](https://algorithm-visualizer.org/divide-and-conquer/merge-sort)
+- [Algorithm Visualizer](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html)
 
 
 ## References
