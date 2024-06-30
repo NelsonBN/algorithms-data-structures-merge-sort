@@ -6,7 +6,9 @@
     - Best: Ω(n log(n))
     - Average: Θ(n log(n))
     - Worst: O(n log(n))
-- Space complexity: O(n)
+- Space complexity:
+  - Using arrays: O(n)
+  - Using linked lists (and Recusion): O(log(n))
 - Not in-place
 - Stable
 
