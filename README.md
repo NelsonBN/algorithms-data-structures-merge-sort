@@ -14,8 +14,9 @@
 
 
 ## Demos:
-- [For Arrays](./src/arrays.py)
-- [For Linked Lists](./src/linked_lists.py)
+- [With Arrays](./src/arrays.py)
+- [With Linked Lists](./src/linked_lists.py)
+- [With Parallelism](./src/parallelism.py)
 
 
 ## Demonstration
