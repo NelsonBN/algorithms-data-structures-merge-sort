@@ -5,18 +5,17 @@ def merge_sort(arr):
         return arr
 
     mid = len(arr) // 2
-    left_half = merge_sort(arr[:mid]) # O(log n)
-    right_half = merge_sort(arr[mid:]) # O(log n)
 
     # Use parallel execution for sorting both halves
     with concurrent.futures.ThreadPoolExecutor() as executor:
-        left_sorted = executor.submit(merge_sort, left_half)
-        right_sorted = executor.submit(merge_sort, right_half)
+        left_sorted = executor.submit(merge_sort, arr[:mid])
+        right_sorted = executor.submit(merge_sort, arr[mid:])
 
         left_half = left_sorted.result()
         right_half = right_sorted.result()
 
     return merge(left_half, right_half)
+
 
 def merge(left, right):
     sorted_list = []
